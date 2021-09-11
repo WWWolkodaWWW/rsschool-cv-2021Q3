@@ -38,7 +38,7 @@
 >
 > CorelDraw\
 > Autodesk Fusion 360\
-> Figma
+> Figma\
 > Avocode
 - Strong knowledge of musical theory domain
 
@@ -99,7 +99,7 @@ in Petro Tchaikovsky National Music Academy of Ukraine
 - Computer Graphics Course. ECDL Profile Certificate Digcop 55. 2019
 - RS Schools Course "JavaScript/Front-end 2021Q3" \(in progress)
 - JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru) \(in progress)
-- HTML and Css on [w3schools](https://www.w3schools.com/) \(in progress)
+- HTML and CSS on [w3schools](https://www.w3schools.com/) \(in progress)
 - self-education with a huge amount of courses on [linkedin](https://www.linkedin.com), [udemy](https://www.udemy.com), [youtube](https://www.youtube.com/)
 
 ## _**Languages**_
