@@ -1,14 +1,12 @@
 # Iuliia Makarenko 
 
-### Contact information:
+## _**Contact information**_
 > **+48537187966**
 >
 > **wwwolkodavvv@gmail.com**
 >
-> [behance](https://www.behance.net/wolkodaws_creations)
->
-> [deviantart](https://www.deviantart.com/wwwolkodawww/gallery)
->
+> [behance](https://www.behance.net/wolkodaws_creations)\
+> [deviantart](https://www.deviantart.com/wwwolkodawww/gallery)\
 > [instagram](https://www.instagram.com/wwwolkodaww)
 >
 > Gdansk, Poland
@@ -31,17 +29,13 @@
 - Python basics
 - JavaScript basics
 - Grafic design
+> Adobe
+>+ Photoshop
+>+ Illustrator
+>+ InDesign
 >
-> Photoshop
->
-> Illustrator
->
-> InDesign
->
-> CorelDraw
->
-> Autodesk Fusion 360
->
+> CorelDraw\
+> Autodesk Fusion 360\
 > Figma
 - Strong knowledge of musical theory domain
 
@@ -106,7 +100,7 @@ in Petro Tchaikovsky National Music Academy of Ukraine
 
 ## _**Languages**_
 
-- English \**(B2)**. TGLS Direct Test of English Certificate #00335666
-- Russian \**(C)**
-- Ukrainian \**(C)**
-- Polish \**(B1)**
+- English **(B2)**. TGLS Direct Test of English Certificate #00335666
+- Russian **(C)**
+- Ukrainian **(C)**
+- Polish **(B1)**
