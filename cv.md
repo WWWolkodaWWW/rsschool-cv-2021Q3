@@ -5,6 +5,7 @@
 >
 > **wwwolkodavvv@gmail.com**
 >
+> [GitHub](https://github.com/WWWolkodaWWW)\
 > [behance](https://www.behance.net/wolkodaws_creations)\
 > [deviantart](https://www.deviantart.com/wwwolkodawww/gallery)\
 > [instagram](https://www.instagram.com/wwwolkodaww)
@@ -28,6 +29,7 @@
 - HTML5/CSS3
 - Python basics
 - JavaScript basics
+- Git
 - Grafic design
 > Adobe
 >+ Photoshop
@@ -37,6 +39,7 @@
 > CorelDraw\
 > Autodesk Fusion 360\
 > Figma
+> Avocode
 - Strong knowledge of musical theory domain
 
 ## _**Code examples**_
@@ -96,6 +99,7 @@ in Petro Tchaikovsky National Music Academy of Ukraine
 - Computer Graphics Course. ECDL Profile Certificate Digcop 55. 2019
 - RS Schools Course "JavaScript/Front-end 2021Q3" \(in progress)
 - JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru) \(in progress)
+- HTML and Css on [w3schools](https://www.w3schools.com/) \(in progress)
 - self-education with a huge amount of courses on [linkedin](https://www.linkedin.com), [udemy](https://www.udemy.com), [youtube](https://www.youtube.com/)
 
 ## _**Languages**_
