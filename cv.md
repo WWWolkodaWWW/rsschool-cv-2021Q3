@@ -1,14 +1,14 @@
 # Iuliia Makarenko 
 
 ### Contact information:
-> * **+48537187966**
-> * **wwwolkodavvv@gmail.com**
+> **+48537187966**
+> **wwwolkodavvv@gmail.com**
 >
-> * **[behance]**(https://www.behance.net/wolkodaws_creations)
-> * **[deviantart]**(https://www.deviantart.com/wwwolkodawww/gallery)
-> * **[instagram]**(https://www.instagram.com/wwwolkodaww/)
+> **[behance]** (https://www.behance.net/wolkodaws_creations)
+> **[deviantart]** (https://www.deviantart.com/wwwolkodawww/gallery)
+> **[instagram]** (https://www.instagram.com/wwwolkodaww/)
 >
-> * **Gdansk, Poland**
+> Gdansk, Poland
 
 ## _**Goals**_
 
@@ -29,10 +29,15 @@
 - JavaScript basics
 - Grafic design
 > Photoshop
+>
 > Illustrator
+>
 > InDesign
+>
 > CorelDraw
+>
 > Autodesk Fusion 360
+>
 > Figma
 - Strong knowledge of musical theory domain
 
@@ -67,6 +72,10 @@
             </a>           
         </div>
     </div>
+    <div class="head-container">
+    </div>
+    <!-- /.head-container -->
+
 </body>
 </html>
 ```
@@ -74,13 +83,13 @@
 
 ## _**Professional Experience**_
 
-> graphic design assistant in publishing house "ColorGraf"
+> * graphic design assistant in publishing house "ColorGraf"
 >
->freelance designer 
+> * freelance designer 
 
 ## _**Education**_
 
-- Specialist degree 
+Specialist degree 
 in Petro Tchaikovsky National Music Academy of Ukraine 
 *Ukraine 2011*
 
@@ -89,11 +98,11 @@ in Petro Tchaikovsky National Music Academy of Ukraine
 - Computer Graphics Course. ECDL Profile Certificate Digcop 55. 2019
 - RS Schools Course "JavaScript/Front-end 2021Q3" \(in progress)
 - JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru) \(in progress)
-- self-education with a huge amount of courses on linkedin, udemy, youtube
+- self-education with a huge amount of courses on [linkedin](https://www.linkedin.com), [udemy](https://www.udemy.com), [youtube](https://www.youtube.com/)
 
 ## _**Languages**_
 
-- English \(B2) TGLS Direct Test of English Certificate #00335666
-- Russian \(C)
-- Ukrainian \(C)
-- Polish \(B1)
+- English \(**B2**). TGLS Direct Test of English Certificate #00335666
+- Russian \(**C**)
+- Ukrainian \(**C**)
+- Polish \(**B1**)
