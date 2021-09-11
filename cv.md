@@ -2,11 +2,14 @@
 
 ### Contact information:
 > **+48537187966**
+>
 > **wwwolkodavvv@gmail.com**
 >
-> **[behance]** (https://www.behance.net/wolkodaws_creations)
-> **[deviantart]** (https://www.deviantart.com/wwwolkodawww/gallery)
-> **[instagram]** (https://www.instagram.com/wwwolkodaww/)
+> [behance](https://www.behance.net/wolkodaws_creations)
+>
+> [deviantart](https://www.deviantart.com/wwwolkodawww/gallery)
+>
+> [instagram](https://www.instagram.com/wwwolkodaww)
 >
 > Gdansk, Poland
 
@@ -28,6 +31,7 @@
 - Python basics
 - JavaScript basics
 - Grafic design
+>
 > Photoshop
 >
 > Illustrator
@@ -102,7 +106,7 @@ in Petro Tchaikovsky National Music Academy of Ukraine
 
 ## _**Languages**_
 
-- English \(**B2**). TGLS Direct Test of English Certificate #00335666
-- Russian \(**C**)
-- Ukrainian \(**C**)
-- Polish \(**B1**)
+- English \**(B2)**. TGLS Direct Test of English Certificate #00335666
+- Russian \**(C)**
+- Ukrainian \**(C)**
+- Polish \**(B1)**
