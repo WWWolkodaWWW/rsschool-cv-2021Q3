@@ -1,0 +1,163 @@
+body {
+    background: #171628;
+    box-sizing: border-box;
+    color: #cbcbcb;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    line-height: 1.2;
+    height: 100%;
+}
+
+header {
+    padding: 70px 35px 0 35px;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 53px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gentium Book Basic', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+section {
+    margin-top: 35px;
+    padding: 0 42px;
+}
+
+
+
+
+
+
+
+.main-container {
+    display: flex;
+    background-color: #24233d;
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.aside-container {
+    width: 30%;
+}
+
+.right-container {
+    width: 70%;
+    background-color: #cbcbcb;
+    color: #171628;
+    padding: 35px 35px 0 35px;
+}
+
+.avatar {
+    display: block;
+    width: 100%;
+    margin-bottom: 47px;
+    border-radius: 50%;
+    box-shadow: 0 8px 7px rgb(0 0 0 / 45%);
+}
+
+.capital-name {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/* .aside-menu:hover::before {
+    content: '';
+    display: block;
+    background-image: linear-gradient(to right, #24233d, #171628 , #24233d);
+    transition: 0.5s all;
+} */
+
+.contact-list img {
+    width: 25px;
+}
+
+.contact-list li {
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a {
+    font-weight: 500;
+}
+
+ul li a:hover {
+    color: #7eb92d;
+}
+
+.extra-information {
+    font-size: 15px;
+}
+
+.marked-information {
+    color: #7eb92d;
+    font-size: 18px;
+}
+
+.contact-list {
+
+}
+
+.contact-info {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.aside-article {
+
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.level {
+    font-weight: 500;
+}
+
+.quality-item li {
+    /* list-style-type: disc; */
+    position: relative;
+    padding-left: 30px;
+}
+
+.quality-item li .marked-quality-item::before {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 2px;
+    height: 27px;
+    left: 9px;
+    top: 20px;
+}
+
+.quality-item li .marked-quality-item::after {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    left: 5px;
+    top: 12px;
+}
+
+.marked-quality-item-last::after {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    left: 5px;
+    top: 12px;
+}
