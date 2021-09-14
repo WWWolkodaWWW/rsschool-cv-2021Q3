@@ -1,0 +1,246 @@
+body {
+    background: #171628;
+    box-sizing: border-box;
+    color: #cbcbcb;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    height: 100%;
+}
+
+main {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #24233d;
+}
+
+header {
+    padding: 70px 35px 0 35px;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 53px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gentium Book Basic', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1;
+}
+
+section {
+    margin-top: 35px;
+    padding: 0 42px;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #7eb92d;
+    color: #171628;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+ul li a {
+    font-weight: 500;
+}
+
+ul li a:hover {
+    color: #7eb92d;
+}
+/* main */
+.main-container {
+    display: flex;
+}
+
+.aside-container {
+    width: 30%;
+}
+
+.right-container {
+    width: 70%;
+    background-color: #cbcbcb;
+    color: #171628;
+    padding: 35px 35px 0 35px;
+}
+
+.aside-menu {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    border-bottom: 2px solid;
+}
+/* blocks */
+.avatar {
+    display: block;
+    width: 100%;
+    margin-bottom: 47px;
+    border-radius: 50%;
+    box-shadow: 0 8px 7px rgb(0 0 0 / 45%);
+}
+
+.contact-list img {
+    width: 25px;
+}
+
+.contact-list li {
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.languages {
+    padding-left: 20px;
+}
+
+.languages li {
+    list-style-type: disc;
+    color: #7eb92d;
+}
+
+.languages li span {
+    color: #cbcbcb;
+}
+
+.list-style-tipe-disk {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-list li{
+    display: flex;
+    align-items: center;
+}
+
+.skills-list li img {
+    padding-right: 25px;
+}
+
+.quality-item li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.quality-item li .marked-quality-item::before {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 2px;
+    height: 32px;
+    left: 9px;
+    top: 25px;
+}
+
+.quality-item li .marked-quality-item::after {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    left: 5px;
+    top: 17px;
+}
+
+.marked-quality-item-last::after {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    left: 5px;
+    top: 17px;
+}
+
+.code-eximple {
+    line-height: 0.7;
+    position: relative;
+    padding: 35px 100px 0 100px;
+}
+
+.w-c-p {
+    position: relative;
+    transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.w-c-p img {
+    margin-right: 10px;
+}
+
+.w-c-p a {
+    font-weight: 500;
+}
+
+.w-c-p a:hover {
+    color: #7eb92d;
+}
+
+.w-c-p::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: -93px;
+    width: 10px;
+    height: 30px;
+    background-color: #24233d;
+}
+
+.w-c-p:hover::before {
+    width: 500px;
+    height: 30px;
+    border-radius: 40px;
+    transition: 0.5s all;
+}
+
+.git-footer-link {
+    display: flex;
+    align-items: center;
+}
+
+.git-footer-link img {
+    margin-right: 10px;
+}
+
+.rsschool-logo img {
+    height: 90px;
+}
+/* elements */
+.capital-name {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.extra-information {
+    font-size: 15px;
+}
+
+.marked-information {
+    color: #7eb92d;
+    font-size: 18px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.level {
+    font-weight: 500;
+}
+/* text */

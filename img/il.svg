@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <title>icons</title>
+  <g style="isolation: isolate">
+    <g id="Layer_1" data-name="Layer 1">
+      <g id="AI">
+        <rect x="1.145" y="1.571" width="27.711" height="26.859" fill="#261300"/>
+        <g>
+          <g opacity="0.5" style="mix-blend-mode: multiply">
+            <polygon points="29.378 14.288 21.08 7.626 18.488 9.995 20.458 11.807 18.785 12.197 13.694 7.793 10.061 11.974 6.939 20.309 17.252 29.424 29.74 29.424 29.378 14.288" fill="#261300"/>
+          </g>
+          <g>
+            <path d="M10.743,7.793h2.951l3.8,12.516H14.682l-1.534-5.78c-.326-1.141-.572-2.531-.885-3.721h-.072c-.284,1.205-.665,2.58-.991,3.721l-1.541,5.78H6.948ZM9.377,15.57h5.644v2.119H9.377Z" fill="#ff7c00"/>
+            <rect x="18.388" y="11.287" width="2.772" height="9.022" fill="#ff7c00"/>
+            <rect x="18.399" y="7.57" width="2.75" height="2.472" rx="1.236" ry="1.236" fill="#ff7c00"/>
+          </g>
+        </g>
+        <path d="M30,29.574H0V.426H30ZM2.289,27.285H27.711V2.715H2.289Z" fill="#ff7c00"/>
+      </g>
+    </g>
+  </g>
+</svg>
