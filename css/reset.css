@@ -53,3 +53,8 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+
+code {
+	font-family: monospace;
+	font-size: 13px;
+}
