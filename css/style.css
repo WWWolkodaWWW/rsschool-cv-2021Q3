@@ -1,5 +1,5 @@
 body {
-    background: #171628;
+    background: #1C1A31;
     box-sizing: border-box;
     color: #cbcbcb;
     font-family: 'Quicksand', sans-serif;
@@ -82,7 +82,7 @@ footer {
 .avatar {
     display: block;
     width: 100%;
-    margin-bottom: 47px;
+    margin-bottom: 48px;
     border-radius: 50%;
     box-shadow: 0 8px 7px rgb(0 0 0 / 45%);
 }
