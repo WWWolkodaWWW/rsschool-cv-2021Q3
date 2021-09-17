@@ -46,8 +46,15 @@ section {
     padding: 0 42px;
 }
 
-
-
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #7eb92d;
+    color: #171628;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
 
 /* main */
 .main-container {
@@ -58,30 +65,18 @@ section {
     width: 30%;
 }
 
+.right-container {
+    width: 70%;
+    background-color: #cbcbcb;
+    color: #171628;
+    padding: 35px 35px 0 35px;
+}
+
 .aside-menu {
     margin-bottom: 15px;
     margin-top: 40px;
     border-bottom: 2px solid;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* blocks */
 .avatar {
@@ -121,18 +116,103 @@ section {
     color: #cbcbcb;
 }
 
+.list-style-tipe-disk {
+    list-style-type: disc;
+    padding-left: 20px;
+}
 
+.skills-list li{
+    display: flex;
+    align-items: center;
+}
 
+.skills-list li img {
+    padding-right: 25px;
+}
 
+.quality-item li .marked-quality-item::before {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 2px;
+    height: 32px;
+    left: 9px;
+    top: 25px;
+}
 
+.quality-item li .marked-quality-item::after {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    left: 5px;
+    top: 17px;
+}
 
+.marked-quality-item-last::after {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    left: 5px;
+    top: 17px;
+}
 
+.w-c-p {
+    position: relative;
+    transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
 
+.w-c-p img {
+    margin-right: 10px;
+}
 
+.w-c-p a {
+    font-weight: 500;
+}
 
+.w-c-p a:hover {
+    color: #7eb92d;
+}
 
+.w-c-p::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: -93px;
+    width: 10px;
+    height: 30px;
+    background-color: #24233d;
+}
 
+.w-c-p:hover::before {
+    width: 500px;
+    height: 30px;
+    border-radius: 40px;
+    transition: 0.5s all;
+}
 
+.git-footer-link {
+    display: flex;
+    align-items: center;
+}
+
+.git-footer-link img {
+    margin-right: 10px;
+}
+
+.rsschool-logo img {
+    height: 90px;
+}
 
 /* text */
 .capital-name {
@@ -151,10 +231,7 @@ section {
     font-weight: 500;
 }
 
-
-
-
-
-.marked-line {
-
+.marked-information {
+    color: #7eb92d;
+    font-size: 18px;
 }
