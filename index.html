@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV_rsschool</title>
-    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script> -->
+    <link rel="stylesheet" href="./libs/highlight/styles/xcode.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
@@ -239,49 +237,58 @@
                     <div class="aside-menu capitalize">
                         <h2 class="aside-article">code examples</h2>
                     </div>
-                    <pre class="code-eximple">
-                        <code class="javascript">function highAndLow(numbers){
-                            let arr = numbers.split(' ')
-                            let lowNumber = +arr[0]
-                            let highNumber = +arr[0]
-                            
-                            for(let i of arr){
-                                if(+i &lt; lowNumber) lowNumber = +i    
-                                console.log(lowNumber)    
-                                if(+i > highNumber) highNumber = +i    
-                                console.log(highNumber)
-                            }  
-                            return `${highNumber} ${lowNumber}`
-                        }</code>
-                    </pre>
+        <pre>
+            <code>function highAndLow(numbers){
+                let arr = numbers.split(' ')
+                let lowNumber = +arr[0]
+                let highNumber = +arr[0]
+                
+                for(let i of arr){
+                    if(+i &lt; lowNumber) lowNumber = +i    
+                    console.log(lowNumber)    
+                    if(+i > highNumber) highNumber = +i    
+                    console.log(highNumber)
+                }  
+                return `${highNumber} ${lowNumber}`
+            }</code>
+        </pre>
+                </section>
+                <!-- code examples -->
+                <section>
+                    <div class="aside-menu capitalize">
+                        <h2 class="aside-article">projects</h2>
+                    </div>
                     <div class="w-c-p">
                         <img src="./img/logo-dark.svg" alt="logo">
                         <a href="https://gracious-leakey-db04b3.netlify.app/" target="_blank">wolkodaw’s creations page</a>
                     </div>
+                    <div class="w-c-p">
+                        <a href="https://wwwolkodawww.github.io/rsschool-cv-old-projects/" target="_blank">layout(restaurant)</a>
+                    </div>
                 </section>
-                <!-- code examples -->
             </div>
             <!-- right-container -->
         </div>
-        <footer>
-            <div class="git-footer-link">
-                <img src="./img/git.svg" alt="git">
-                <a href="https://github.com/WWWolkodaWWW" target="_blank">My GitHub</a>
-            </div>
-            <div>
-                <span class="extra-information">© 2021</span>
-            </div>
-            <div class="rsschool-logo">
-                <a href="https://rs.school/js/" target="_blank">
-                    <img src="./img/rssch.svg" alt="rsschool">
-                </a>
-            </div>
-        </footer>
+            <footer>
+                <div class="git-footer-link">
+                    <img src="./img/git.svg" alt="git">
+                    <a href="https://github.com/WWWolkodaWWW" target="_blank">My GitHub</a>
+                </div>
+                <div>
+                    <span class="extra-information">© 2021</span>
+                </div>
+                <div class="rsschool-logo">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="./img/rssch.svg" alt="rsschool">
+                    </a>
+                </div>
+            </footer>
         <!-- footer -->
-
+        
     </main>
     
-    
+    <script src="./libs/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
 
