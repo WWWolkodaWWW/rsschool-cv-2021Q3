@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
     <title>CV-rssckool</title>
     <link rel="stylesheet" href="./libs/highlight/styles/xcode.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,57 +23,156 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-    <main>
+    <div class="header">
+        <div id="nav" class="sticky-nav">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+
+                  <a class="navbar-brand" href="#">
+                      <img src="./img/logo-gray.svg" alt="logo">
+                  </a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#languages">Languages</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#code-examples">My code</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#qualities">Qualities</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navigation -->
+        <header class="container">
+            <img class="avatar mx-auto d-block" src="./img/avatar_forCV.png" alt="avatar">
+            <h1><span class="capital-name">I</span>uliia Makarenko</h1>
+            <h3 class="text-center">Junior Front-End Developer</h3>
+        </header>
+        <!-- header -->
+    </div>
+    <!-- header -->
+
+    <section class="container-fluid section-card" id="skills">
+        <div class="row">
+            <h2 class="text-center section-title">skills</h2>
+            <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
+                <ul class="skills-list">
+                    <li>
+                        <span>HTML5</span>
+                        <img src="./img/html.svg" alt="html">
+                    </li>
+                    <li>
+                        <span>CSS</span>
+                        <img src="./img/css.svg" alt="css">
+                    </li>
+                    <li>
+                        <span>Python basics</span>
+                        <img src="./img/pyth.svg" alt="python">
+                    </li>
+                    <li>
+                        <span>JavaScript basics</span>
+                        <img src="./img/js.svg" alt="js">
+                    </li>
+                    <li>
+                        <span>Git</span>
+                        <img src="./img/git-gray.svg" alt="Git">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
+                <ul class="skills-list">
+                    <li>
+                        <img src="./img/ps.svg" alt="ps">
+                        <span>Adobe Photoshop</span>
+                    </li>
+                    <li>
+                        <img src="./img/il.svg" alt="il">
+                        <span>Adobe Illustrator</span>
+                    </li>
+                    <li>
+                        <img src="./img/id.svg" alt="ind">
+                        <span>Adobe InDesign</span>
+                    </li>
+                    <li>
+                        <img src="./img/cor.svg" alt="cor">
+                        <span>CorelDraw</span>
+                    </li>
+                    <li>
+                        <img src="./img/fus.svg" alt="fus">
+                        <span>Autodesk Fusion 360</span>
+                    </li>
+                    <li>
+                        <img src="./img/fig.svg" alt="fig">
+                        <span>Figma</span>
+                    </li>
+                    <li>
+                        <img src="./img/avoc.svg" alt="avoc">
+                        <span>Avocode</span>
+                    </li>
+                </ul>
+            </div>
+            <p class="text-center">Strong knowledge of musical theory domain</p>
+        </div>
+    </section>
+    <!-- skills -->
+
+    <section class="container-fluid" id="languages">
+        <div class="section-light-color">
+            <h2 class="text-center section-title">languages</h2>
+            <ul class="language-list text-center">
+                <li>
+                    <p>English (B2)</p>
+                    <h6>TGLS Direct Test of English Certificate #00335666</h6>
+                </li>
+                <li><p>Russian (C)</p></li>
+                <li><p>Ukrainian (C)</p></li>
+                <li><p>Polish (B1)</p></li>
+            </ul>
+        </div>
+    </section>
+    <!-- languages -->
+
+
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <div class="main-container">
             <aside class="aside-container">
-                <header>
-                    <div>
-                        <img class="avatar" src="./img/avatar_forCV.png" alt="avatar">
-                    </div>
-                    <h1> 
-                        <span class="capital-name">I</span>uliia Makarenko
-                    </h1>
-                </header>
-                <!-- header -->
-                <section class="contact-info">
-                    <div class="aside-menu capitalize">
-                        <h2>contact information</h2>
-                    </div>
-                    <ul class="contact-list">
-                        <li>
-                            <img src="./img/mail.svg" alt="mail">
-                            <span>wwwolkodavvv@gmail.com</span>
-                        </li>
-                        <li>
-                            <img src="./img/tel.svg" alt="tel">
-                            <span>+48537187966</span>
-                        </li>
-                        <li>
-                            <img src="./img/home.svg" alt="location">
-                            <span>Gdansk, Poland</span>
-                        </li>
-                        <li class="marked-line">
-                            <img src="./img/git-gray.svg" alt="git">
-                            <a href="https://github.com/WWWolkodaWWW" target="_blank">GitHub</a>
-                        </li>
-                        <li>
-                            <img src="./img/inst.svg" alt="instagram">
-                            <a href="https://www.instagram.com/wwwolkodaww/" target="_blank">instagram</a>
-                        </li>
-                        <li>
-                            <img src="./img/bech.svg" alt="behance">
-                            <a href="https://www.behance.net/wolkodaws_creations" target="_blank">behance</a>
-                        </li>
-                        <li>
-                            <img src="./img/dev.svg" alt="deviantart">
-                            <a href="https://www.deviantart.com/wwwolkodawww/gallery" target="_blank">deviantart</a>
-                        </li>
-                    </ul>
-                </section>
+                
+                
                 <!-- contact info -->
                 <section>
                     <div class="aside-menu capitalize">
@@ -284,8 +388,7 @@
                 </div>
             </footer>
         <!-- footer -->
-
-    </main>
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
     <script src="./libs/highlight/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
