@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV_rsschool</title>
-    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script> -->
+    <link rel="stylesheet" href="./libs/highlight/styles/xcode.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
@@ -239,21 +237,21 @@
                     <div class="aside-menu capitalize">
                         <h2 class="aside-article">code examples</h2>
                     </div>
-                    <pre class="code-eximple">
-                        <code class="javascript">function highAndLow(numbers){
-                            let arr = numbers.split(' ')
-                            let lowNumber = +arr[0]
-                            let highNumber = +arr[0]
-                            
-                            for(let i of arr){
-                                if(+i &lt; lowNumber) lowNumber = +i    
-                                console.log(lowNumber)    
-                                if(+i > highNumber) highNumber = +i    
-                                console.log(highNumber)
-                            }  
-                            return `${highNumber} ${lowNumber}`
-                        }</code>
-                    </pre>
+<pre>
+    <code>function highAndLow(numbers){
+        let arr = numbers.split(' ')
+        let lowNumber = +arr[0]
+        let highNumber = +arr[0]
+        
+        for(let i of arr){
+            if(+i &lt; lowNumber) lowNumber = +i    
+            console.log(lowNumber)    
+            if(+i > highNumber) highNumber = +i    
+            console.log(highNumber)
+        }  
+        return `${highNumber} ${lowNumber}`
+    }</code>
+</pre>
                     <div class="w-c-p">
                         <img src="./img/logo-dark.svg" alt="logo">
                         <a href="https://gracious-leakey-db04b3.netlify.app/" target="_blank">wolkodaw’s creations page</a>
@@ -281,7 +279,8 @@
 
     </main>
     
-    
+    <script src="./libs/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
 
