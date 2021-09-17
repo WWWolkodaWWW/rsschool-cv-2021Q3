@@ -1,0 +1,160 @@
+body {
+    background: #171628;
+    box-sizing: border-box;
+    color: #cbcbcb;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    height: 100%;
+}
+
+main {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #24233d;
+}
+
+header {
+    padding: 70px 35px 0 35px;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 53px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gentium Book Basic', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1;
+}
+
+ul li a {
+    font-weight: 500;
+}
+
+ul li a:hover {
+    color: #7eb92d;
+}
+
+section {
+    margin-top: 35px;
+    padding: 0 42px;
+}
+
+
+
+
+/* main */
+.main-container {
+    display: flex;
+}
+
+.aside-container {
+    width: 30%;
+}
+
+.aside-menu {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    border-bottom: 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* blocks */
+.avatar {
+    display: block;
+    width: 100%;
+    margin-bottom: 47px;
+    border-radius: 50%;
+    box-shadow: 0 8px 7px rgb(0 0 0 / 45%);
+}
+
+.contact-info {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.contact-list li {
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-list img {
+    width: 25px;
+}
+
+.languages {
+    padding-left: 20px;
+}
+
+.languages li {
+    list-style-type: disc;
+    color: #7eb92d;
+}
+
+.languages li span {
+    color: #cbcbcb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* text */
+.capital-name {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.extra-information {
+    font-size: 15px;
+}
+
+.level {
+    font-weight: 500;
+}
+
+
+
+
+
+.marked-line {
+
+}
