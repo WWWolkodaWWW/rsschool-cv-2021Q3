@@ -55,7 +55,7 @@ a:hover {
 }
 /* default */
 
-/* lists - links */
+/* lists - links -buttons */
 .card-text a {
     color: #171623;
     font-weight: 500;
@@ -145,6 +145,54 @@ a:hover {
 
 .git-footer-link a:hover {
     color: #cbcbcb;
+}
+
+.btn {
+    background-color: #171628;
+    color: #cbcbcb;
+    margin-top: 22px;
+    box-shadow: 0px 4px 4px 1px rgb(23 22 40 / 50%);
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #7eb92d;
+    color: #171628;
+    margin-top: 10px;
+    box-shadow: 0px 4px 4px 1px rgb(126 185 45 / 50%);
+}
+
+.go-up {
+    font-size: 20px;
+    background-color: #171628;
+    box-shadow: 0px 0px 2px 3px rgb(203 203 203 / 50%);
+    color: #cbcbcb;
+    border-radius: 25px;
+    padding: 10px;
+    border: 2px solid #cbcbcb;
+    position: fixed;
+    right: 50px;
+    bottom: 150px;
+}
+
+.go-up:hover {
+    background-color: #7eb92d;
+    box-shadow: 0px 0px 2px 3px rgb(126 185 45 / 50%);
+    border: 2px solid #7eb92d;
+}
+
+.go-up a:hover {
+    color: #171628;
+    font-weight: 500;
+}
+
+@media (max-width: 1180px) {
+    .go-up {
+        top: 10px;
+        right: 20px;
+        position: fixed;
+        height: 50px;
+    }
 }
 
 /* blocks */
@@ -303,6 +351,11 @@ section {
 
 .card img {
     max-height: 150px;
+}
+
+.code-ex-container {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .bg-img {
