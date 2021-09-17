@@ -279,6 +279,8 @@ section {
 
 .avatar {
     width: 300px;
+    box-shadow: 0px 4px 9px 3px rgb(0 0 0 / 50%);
+    border-radius: 50%;
 }
 
 .education-container {
