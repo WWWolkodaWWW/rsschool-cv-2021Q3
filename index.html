@@ -166,164 +166,184 @@
     </section>
     <!-- languages -->
 
+    <section class="container-fluid" id="education">
+        <div class="education-container text-center">
+            <h2 class="text-center section-title">education</h2>
+            <p>Specialist degree in Petro Tchaikovsky National Music Academy of Ukraine</p>
+            <h6>Ukraine 2011</h6>
+        </div>
+    </section>
+    <!-- education -->
+
+    <section class="container-fluid" id="courses">
+        <div class="section-light-color">
+            <h2 class="text-center section-title">courses</h2>
+            <ul class="list-style-tipe-disk">
+                <li>
+                    <p>Computer Graphics Course.</p> 
+                    <h6> ECDL Profile  Certificate Digcop 55. 2019</h6>
+                </li>
+                <li>
+                    <span>RS Schools Course </span>
+                    <a href="https://rs.school/js/" target="_blank">"JavaScript/Front-end 2021Q3"</a>
+                    <h5> (in progress)</h5>
+                </li>
+                <li>
+                    <span>JavaScript Manual on </span>
+                    <a href="https://learn.javascript.ru/" target="_blank">learnjavascript.ru</a>
+                    <h5> (in progress)</h5>                    
+                </li>
+                <li>
+                    <span>HTML and CSS on </span>
+                    <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+                    <h5> (in progress)</h5>                    
+                </li>
+                <li>
+                    <p>self-education with a huge amount of courses on linkedin, udemy, youtube</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- courses -->
+
+    <section class="container-fluid" id="projects">
+        <div class="row">
+            <h2 class="text-center section-title">professional experience</h2>
+            <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
+                <p class="text-right project-title">graphic design assistant in publishing house "ColorGraf" </p>
+                <h4>2019</h4>
+                <ul class="project-item">
+                    <li><span>packaging design</span></li>
+                    <li><span>logo design</span></li>
+                    <li><span>photo editing</span></li>
+                    <li><span>illustration</span></li>
+                    <li><span>grapchic design</span></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
+                <p class="text-right project-title">freelance designer</p>
+                <h4>2019-present</h4>
+                <ul class="project-item">
+                    <li><span>print design</span></li>
+                    <li><span>product design</span></li>
+                    <li><span>web design</span></li>
+                    <li><span>illustration</span></li>
+                    <li><span>mock ups</span></li>
+                    <li><span>packaging design</span></li>
+                    <li><span>photography</span></li>
+                    <li><span>logo design</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row project-cards">
+            <div class="col-xs-12 col-sm-6 col-lg-6 column-left projects-left-card">
+                <div class="card">
+                    <img src="./img/logo-dark.svg" class="card-img-top" alt="logo-dark">
+                    <div class="card-body">
+                        <p class="card-text">the first try in HTML/CSS after a month of on-line studying</p>
+                        <a href="https://gracious-leakey-db04b3.netlify.app/" target="_blank" class="btn">wolkodaw’s creations page</a>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
+                <div class="card">
+                    <img src="./img/promo_bg.jpg" class="card-img-top" alt="labmda">
+                    <div class="card-body">
+                        <p class="card-text">create web page, strictly according to: <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markup-1.md" target="_blank">Lambda restaurant layout</a></p>
+                        <a href="#" class="btn">lambda restaurant layout</a>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+
+    <section class="container-fluid" id="code-examples">
+        <div class="code-ex-container">
+            <h2 class="text-center section-title">code examples</h2>
+<pre>
+<code>function highAndLow(numbers){
+        let arr = numbers.split(' ')
+        let lowNumber = +arr[0]
+        let highNumber = +arr[0]
+        for(let i of arr){
+            if(+i &lt; lowNumber) lowNumber = +i    
+            console.log(lowNumber)    
+            if(+i > highNumber) highNumber = +i    
+            console.log(highNumber)
+        }  
+    return `${highNumber} ${lowNumber}`
+}</code>
+</pre>
+        </div>
+    </section>
+    <!-- code-examples -->
+
+    <section class="container-fluid" id="qualities">
+        <h2 class="text-center section-title">qualities</h2>
+        <div class="quality-container">
+            <ul class="quality-item">
+                <li><span class="marked-quality-item">creative</span></li>
+                <li><span class="marked-quality-item">diligent</span></li>
+                <li><span class="marked-quality-item">hard-working</span></li>
+                <li><span class="marked-quality-item">self-motivated</span></li>
+                <li><span class="marked-quality-item-last">ambitious</span></li>
+            </ul>
+        </div>
+    </section>
+    <!-- qualities -->
+
+    <section id="contacts">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="img-wrap">
+                    <img class="img-fluid mx-auto d-block bg-img" src="./img/eye.png" alt="bg">
+                    <div class="col-xs-12 col-sm-6 col-lg-6 contacts-container">
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <img src="./img/mail.svg" alt="mail">
+                                <span>wwwolkodavvv@gmail.com</span>
+                            </li>
+                            <li class="contact-item">
+                                <img src="./img/tel.svg" alt="tel">
+                                <span>+48537187966</span>
+                            </li>
+                            <li class="contact-item">
+                                <img src="./img/git-gray.svg" alt="git">
+                                <a href="https://github.com/WWWolkodaWWW" target="_blank">GitHub</a>
+                            </li>
+                            <li class="contact-item">
+                                <img src="./img/inst.svg" alt="instagram">
+                                <a href="https://www.instagram.com/wwwolkodaww/" target="_blank">instagram</a>
+                            </li>
+                            <li class="contact-item">
+                                <img src="./img/bech.svg" alt="behance">
+                                <a href="https://www.behance.net/wolkodaws_creations" target="_blank">behance</a>
+                            </li>
+                            <li class="contact-item">
+                                <img src="./img/dev.svg" alt="deviantart">
+                                <a href="https://www.deviantart.com/wwwolkodawww/gallery" target="_blank">deviantart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contacts -->
+
+
+
 
 
     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <div class="main-container">
-            <aside class="aside-container">
-                
-                
-                <!-- contact info -->
-                <section>
-                    <div class="aside-menu capitalize">
-                        <h2>education</h2>
-                    </div>
-                    <p>
-                        Specialist degree in Petro Tchaikovsky National Music Academy of Ukraine <span class="extra-information">Ukraine 2011</span>
-                    </p>
-                </section>
-                <!-- education -->
-                <section>
-                    <div class="aside-menu capitalize">
-                        <h2>languages</h2>
-                    </div>
-                    <ul class="languages capitalize">
-                        <li>
-                            <span>english</span>
-                            <span class="level"> (B2)</span>
-                            <span class="extra-information">TGLS Direct Test of English Certificate #00335666</span>
-                        </li>
-                        <li>
-                            <span>russian</span>
-                            <span class="level"> (C)</span>
-                        </li>
-                        <li>
-                            <span>ukrainian</span>
-                            <span class="level"> (C)</span>
-                        </li>
-                        <li>
-                            <span>polish</span>
-                            <span class="level"> (B1)</span>
-                        </li>
-                    </ul>
-                </section>
-                <!-- languades -->
-                <section>
-                    <div class="aside-menu capitalize">
-                        <h2>goals</h2>
-                    </div>
-                    <span>job at Spotify</span>
-                </section>
-                <!-- goals -->             
-            </aside>
-            <!-- aside -->
-
+           
             <div class="right-container">
-                <section>
-                    <div class="aside-menu capitalize">
-                        <h2 class="aside-article">courses</h2>
-                    </div>
-                    <ul class="list-style-tipe-disk">
-                        <li>
-                            <span>Computer Graphics Course. </span>
-                            <span class="extra-information"> ECDL Profile  Certificate Digcop 55. 2019</span>
-                        </li>
-                        <li>
-                            <span>RS Schools Course </span>
-                            <a href="https://rs.school/js/" target="_blank">"JavaScript/Front-end 2021Q3"</a>
-                            <span class="marked-information"> (in progress)</span>
-                        </li>
-                        <li>
-                            <span>JavaScript Manual on </span>
-                            <a href="https://learn.javascript.ru/" target="_blank">learnjavascript.ru</a>
-                            <span class="marked-information"> (in progress)</span>                    
-                        </li>
-                        <li>
-                            <span>HTML and CSS on </span>
-                            <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
-                            <span class="marked-information"> (in progress)</span>                    
-                        </li>
-                        <li>
-                            <span>self-education with a huge amount of courses on linkedin, udemy, youtube</span>
-                        </li>
-                    </ul>
-                </section>
-                <!-- courses -->
-                <section>
-                    <div class="aside-menu capitalize">
-                        <h2 class="aside-article">professional experience</h2>
-                    </div>
-                    <ul class="list-style-tipe-disk">
-                        <li>
-                            <span>graphic design assistant in publishing house "ColorGraf" </span>
-                            <span class="extra-information">2019</span>
-                        </li>
-                        <li>
-                            <span>freelance designer </span>
-                            <span class="extra-information">2019-present</span>
-                        </li>
-                    </ul>
-                </section>
-                <!-- professional experience -->
-                <section>
-                    <div class="aside-menu capitalize">
-                        <h2 class="aside-article">skills</h2>
-                    </div>
-                    <ul class="skills-list">
-                        <li>
-                            <img src="./img/html.svg" alt="html">
-                            <span>HTML5</span>
-                        </li>
-                        <li>
-                            <img src="./img/css.svg" alt="css">
-                            <span>CSS</span>
-                        </li>
-                        <li>
-                            <img src="./img/pyth.svg" alt="python">
-                            <span>Python basics</span>
-                        </li>
-                        <li>
-                            <img src="./img/js.svg" alt="js">
-                            <span>JavaScript basics</span>
-                        </li>
-                        <li>
-                            <img src="./img/git.svg" alt="Git">
-                            <span>Git</span>
-                        </li>
-                        <li>
-                            <img src="./img/ps.svg" alt="ps">
-                            <span>Adobe Photoshop</span>
-                        </li>
-                        <li>
-                            <img src="./img/il.svg" alt="il">
-                            <span>Adobe Illustrator</span>
-                        </li>
-                        <li>
-                            <img src="./img/id.svg" alt="ind">
-                            <span>Adobe InDesign</span>
-                        </li>
-                        <li>
-                            <img src="./img/cor.svg" alt="cor">
-                            <span>CorelDraw</span>
-                        </li>
-                        <li>
-                            <img src="./img/fus.svg" alt="fus">
-                            <span>Autodesk Fusion 360</span>
-                        </li>
-                        <li>
-                            <img src="./img/fig.svg" alt="fig">
-                            <span>Figma</span>
-                        </li>
-                        <li>
-                            <img src="./img/avoc.svg" alt="avoc">
-                            <span>Avocode</span>
-                        </li>
-                        <li>
-                            <span>Strong knowledge of musical theory domain</span>
-                        </li>
-                    </ul>
-                </section>
-                <!-- skills -->
+                
+                
+               
                 <section>
                     <div class="aside-menu capitalize">
                         <h2 class="aside-article">qualities</h2>

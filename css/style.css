@@ -56,8 +56,14 @@ a:hover {
 
 
 
+.card-text a {
+    color: #171623;
+    font-weight: 500;
+}
 
-
+.card-text a:hover {
+    color: #7eb92d;
+}
 
 .nav-link {
     color: #cbcbcb;
@@ -67,6 +73,75 @@ a:hover {
 .nav-link:hover {
     color: #7eb92d;
 }
+
+.language-list li {
+    line-height: 2.4;
+}
+
+.section-light-color a {
+    color: #171628;
+}
+
+.list-style-tipe-disk {
+    list-style-type: disc;
+} 
+
+.list-style-tipe-disk li {
+    margin-top: 10px;
+}
+
+.list-style-tipe-disk a:hover {
+    color: #7eb92d;
+}
+
+.quality-item li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.quality-item li .marked-quality-item::before {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 2px;
+    height: 32px;
+    left: 9px;
+    top: 25px;
+}
+
+.quality-item li .marked-quality-item::after {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    left: 5px;
+    top: 17px;
+}
+
+.marked-quality-item-last::after {
+    content: '';
+    position: absolute;
+    background-color: #7eb92d;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    left: 5px;
+    top: 17px;
+}
+
+.contact-list {
+    padding-top: 20px;
+}
+
+.contact-list li {
+    text-align-last: justify;
+}
+
+
+
+
 
 .header {
     position: static;
@@ -147,12 +222,23 @@ section {
     width: 300px;
 }
 
-.capital-name {
-    font-family: 'Berkshire Swash', cursive;
+.education-container {
+    height: 300px;
+    line-height: 4.2;
 }
 
-.section-title {
-    margin-bottom: 20px;
+.quality-container {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.contacts-container {
+    position: absolute;
+    top: 0;
+    bottom: -20px;
+    text-align: right;
+    width: 100%;
+    padding: 16px 54px 0 34px;
 }
 
 .column-left {
@@ -177,9 +263,78 @@ section {
     min-width: 350px;
 }
 
-.language-list li {
-    line-height: 2.4;
+@media (max-width: 824px) {
+    .section-light-color {
+        margin: 0 auto;
+    }
 }
+
+.project-cards {
+    max-width: 1000px;
+    min-width: 250px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 25rem;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #cbcbcb;
+    color: #171623;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.projects-left-card {
+    padding-left: 10px;
+    text-align: -webkit-right;
+}
+
+.card img {
+    max-height: 150px;
+}
+
+.bg-img {
+    border-radius: 33px;
+    opacity: 0.5;
+    z-index: -1;
+    min-width: 350px;
+}
+
+.img-wrap {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.capital-name {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.project-title {
+    color: #7eb92d;
+}
+
+
+
+
 
 
 
