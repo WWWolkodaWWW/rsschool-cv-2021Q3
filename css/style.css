@@ -135,6 +135,12 @@ a:hover {
     padding-top: 20px;
 }
 
+@media (max-width: 480px) {
+    .contact-list {
+        font-size: 18px;
+    }
+}
+
 .contact-list li {
     text-align-last: justify;
 }
@@ -188,6 +194,15 @@ a:hover {
 
 @media (max-width: 1180px) {
     .go-up {
+        top: 20px;
+        right: 28px;
+        position: fixed;
+        height: 50px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .go-up {
         top: 10px;
         right: 20px;
         position: fixed;
@@ -229,6 +244,8 @@ section {
     -ms-flex-order: 0;
     order: 0;
     background-color: #171628;
+    min-width: 430px;
+
 }
 
 .navbar-brand img {
@@ -284,7 +301,6 @@ section {
 }
 
 .education-container {
-    height: 300px;
     line-height: 4.2;
 }
 
